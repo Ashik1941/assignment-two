@@ -2,12 +2,40 @@
 
 * {
    font-family: 'Work Sans', sans-serif;
+   padding: 0px;
+   margin: 0px;
 }
 
 /* nav section */
-.project-icon {
+
+nav {
+   background: #FFF;
+   box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 0px 150px;
+   height: 100px;
+}
+
+.project-logo {
    display: flex;
    align-items: center;
+}
+
+.project-icon {
+   width: 4rem;
+   height: 2rem;
+   margin-right: 1rem;
+}
+
+.span {
+   text-align: center;
+   font-family: Work Sans;
+   font-size: 40px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: normal;
 }
 
 .gamer {
@@ -23,14 +51,6 @@
    -webkit-text-fill-color: transparent;
 }
 
-nav {
-   background: #FFF;
-   box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
-   display: flex;
-   justify-content: space-between;
-   align-items: center;
-}
-
 .tiktok-icon {
    width: 24px;
    height: 24px;
@@ -39,9 +59,40 @@ nav {
 
 .youtube-icon {
    width: 25px;
-   height: 24px;
-   
+   height: 20px;
+
 }
-.nav-right{
+
+.nav-right {
    display: flex;
+}
+
+.nav-button {
+   display: flex;
+   margin-left: 2rem;
+   color: #3C354F;
+   font-size: 0.8rem;
+   font-weight: 500;
+   border: none;
+   width: 200px;
+   height: 45px;
+   font-weight: 500;
+   border-radius: 8px;
+   background: rgba(11, 2, 35, 0.10);
+   justify-content: space-evenly;
+   align-items: center;
+}
+
+.about {
+   display: flex;
+   text-decoration: none;
+   align-items: center;
+   list-style: none;
+   color: #3C354F;
+   font-family: Work Sans;
+   font-size: 0.8rempx;
+   font-weight: 500;
+}
+.about-us{
+   margin-right: 20px;
 }
