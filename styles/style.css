@@ -257,13 +257,36 @@ nav {
 
 .collection-container {
    display: flex;
-   justify-content: space-evenly;
+   margin-left: 120px;
+   gap: 15px;
+
+}
+
+.collection-description {
+   color: #534C64;
+   font-size: 14px;
+   font-weight: 500;
+   line-height: 20px;
+   margin-top: 10px;
 
 }
 
 .img {
-   width: 300px;
-   height: 300px;
+   width: 250px;
+   height: 250px;
+
+
+}
+
+.hover:hover {
+   transition: .5s ease;
+   opacity: 0;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   -ms-transform: translate(-50%, -50%);
+   text-align: center;
 }
 
 .online {
@@ -358,7 +381,7 @@ nav {
    gap: 30px;
    width: 100%;
    height: 150px;
-   
+
 }
 
 .sticker-icon {
@@ -374,7 +397,7 @@ nav {
    font-weight: 600;
    position: relative;
    bottom: 13px;
-   
+
 
 }
 
